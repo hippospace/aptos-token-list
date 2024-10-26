@@ -1199,6 +1199,27 @@ export const REQUESTS: RawCoinInfo[] = [
     permissioned_listing: false,
   },
   {
+    name: "BURRITOS",
+    symbol: "BURRITOS",
+    official_symbol: "BURRITOS",
+    coingecko_id: "",
+    decimals: 9,
+    logo_url: "https://raw.githubusercontent.com/hippospace/aptos-coin-list/main/icons/BURRITOS.png",
+    project_url: "https://burritos-aptos.com/",
+    token_type: {
+      type: "0xc89f2e0a7f61424e0b951936820f0423e3f076948dcdced112b76244ed840a25::burritos_coin::BurritosCoin",
+      account_address: "0xc89f2e0a7f61424e0b951936820f0423e3f076948dcdced112b76244ed840a25",
+      module_name: "burritos_coin",
+      struct_name: "BurritosCoin"
+    },
+    extensions: {
+      data: [["bridge", "native"]]
+    },
+    unique_index: 6942069,
+    source: "native",
+    permissioned_listing: false,
+  },
+  {
     name: "Abel Coin",
     symbol: "ABEL",
     official_symbol: "ABEL",
@@ -2145,5 +2166,5 @@ export const REQUESTS: RawCoinInfo[] = [
   "unique_index": 21027,
   "source": "native",
   "permissioned_listing": true
-}
+},
 ];
