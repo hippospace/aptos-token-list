@@ -1184,7 +1184,7 @@ export const REQUESTS: RawCoinInfo[] = [
     coingecko_id: "",
     decimals: 8,
     logo_url: "https://raw.githubusercontent.com/hippospace/aptos-coin-list/main/icons/GEM.svg",
-    project_url: "https://gemzeitgeist.medium.com/",
+    project_url: "https://medium.com/gem-zeitgeist",
     token_type: {
       type: "0x9b49c6e930efb22a41d2e362efc605b266786fb847673d90b28d748f76b4c220::GEM::GEM",
       account_address: "0x9b49c6e930efb22a41d2e362efc605b266786fb847673d90b28d748f76b4c220",
